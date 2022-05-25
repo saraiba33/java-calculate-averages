@@ -5,10 +5,10 @@ class App {
     int[] testScores = { 72, 95, 91, 85, 87, 51, 65, 72, 75, 89 };
     int length = testScores.length;
 
-    System.out.println(median(testScores, length));
-    System.out.println(mean(testScores, length));
-    System.out.println(highScore(testScores));
-    System.out.println(lowScore(testScores));
+    System.out.println("Median value: " + median(testScores, length));
+    System.out.println("Mean value: " + mean(testScores, length));
+    System.out.println("Highest score: " + highScore(testScores));
+    System.out.println("Lowest score: " + lowScore(testScores));
 
   }
 
